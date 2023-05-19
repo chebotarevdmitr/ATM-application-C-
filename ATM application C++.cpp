@@ -6,6 +6,7 @@ void show_menu() {
     cout << " 1. Check balance " << endl;
     cout << " 2. Deposit " << endl;
     cout << " 3. withdraw " << endl;
+    cout << " 4. Exit " << endl;
     cout << " *********************** " << endl;
 }
 
@@ -21,6 +22,7 @@ int main()
         show_menu();
         cout << "Option : ";
         cin >> option;
+        system("cls");
 
         switch (option)
         {
